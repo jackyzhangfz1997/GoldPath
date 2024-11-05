@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+/* Ant Design 自定义样式 */
+.ant-layout-header {
+  height: 56px;
+  line-height: 56px;
+  padding: 0 24px;
+}
+
+.ant-menu-horizontal {
+  line-height: 54px;
+}
+
+.ant-card {
+  border-radius: 8px;
+}
+
+.ant-btn-primary {
+  background-color: #1677ff;
+}
+
+.ant-table-wrapper {
+  background: white;
+  border-radius: 8px;
+}
+
+/* 自定义阴影 */
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
